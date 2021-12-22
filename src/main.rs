@@ -1,8 +1,16 @@
 fn main() {
-    println!("CHAPTER 1");
+    println!("\nCHAPTER 1");
     println!("====================================");
     
-    println!("Complex display");
+    println!("\nComplex display");
     println!("------------------------------------");
     prova::chapter_1::complex_display::run();
+
+    println!("\nDisplay list");
+    println!("------------------------------------");
+    prova::chapter_1::display_list::run();
+
+    println!("\nDisplay colour");
+    println!("------------------------------------");
+    prova::chapter_1::display_colour::run();
 }
