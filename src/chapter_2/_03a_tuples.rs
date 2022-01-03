@@ -1,3 +1,5 @@
+use std::fmt::{self, Display, Formatter};
+
 // Tuples can be used as function arguments and as return values
 fn reverse(pair: (i32, bool)) -> (bool, i32) {
     // `let` can be used to bind the members of a tuple to variables
@@ -9,6 +11,21 @@ fn reverse(pair: (i32, bool)) -> (bool, i32) {
 // The following struct is for the activity.
 #[derive(Debug)]
 struct Matrix(f32, f32, f32, f32);
+
+impl Display for Matrix {
+    fn fmt(&self, f: &mut Formatter) -> fmt::Result {
+        let Matrix(a, b, c, d) = self;
+        writeln!(f, "( {}, {} )", a, b)?;
+        writeln!(f, "( {}, {} )", c, d)
+    }
+}
+
+fn transpose(matrix: &Matrix) -> Matrix {
+    // `let` can be used to bind the members of a tuple to variables
+    let Matrix(a, b, c, d) = *matrix;
+
+    Matrix(a, c, b, d)
+}
 
 pub fn run() {
     // A tuple with a bunch of different types
@@ -35,7 +52,7 @@ pub fn run() {
     let pair = (1, true);
     println!("pair is {:?}", pair);
 
-    println!("the reversed pair is {:?}", reverse(pair));
+    println!("the reversed pairMatrix is {:?}", reverse(pair));
 
     // To create one element tuples, the comma is required to tell them apart
     // from a literal surrounded by parentheses
@@ -49,5 +66,7 @@ pub fn run() {
     println!("{:?}, {:?}, {:?}, {:?}", a, b, c, d);
 
     let matrix = Matrix(1.1, 1.2, 2.1, 2.2);
-    println!("{:?}", matrix);
+    println!("Matrix:\n{}", matrix);
+    println!("Transpose:\n{}", transpose(&matrix));
+
 }

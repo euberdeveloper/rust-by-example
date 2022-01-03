@@ -47,6 +47,9 @@ fn main() {
 
     print_section("03 - Tuples");
     prova::chapter_2::_03_tuples::run();
+
+    print_section("03.a - Tuples");
+    prova::chapter_2::_03a_tuples::run();
 }
 
 fn print_chapter(chapter: &str) {
