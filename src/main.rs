@@ -44,6 +44,9 @@ fn main() {
 
     print_section("02 - Literals and operators");
     prova::chapter_2::_02_literals_and_operators::run();
+
+    print_section("03 - Tuples");
+    prova::chapter_2::_03_tuples::run();
 }
 
 fn print_chapter(chapter: &str) {
