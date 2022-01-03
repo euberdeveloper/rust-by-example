@@ -64,6 +64,21 @@ fn chapter_2() {
 
 fn chapter_3() {
     print_chapter("CHAPTER 3");
+
+    print_section("01 - Structures");
+    prova::chapter_3::_01_structures::run();
+
+    print_section("01.a - Structures");
+    prova::chapter_3::_01a_structures::run();
+
+    print_section("02 - Enums");
+    prova::chapter_3::_02_enums::run();
+
+    print_section("03 - Type aliases");
+    prova::chapter_3::_03_type_aliases::run();
+
+    print_section("04 - Use");
+    prova::chapter_3::_04_use::run();
 }
 
 fn print_chapter(chapter: &str) {
