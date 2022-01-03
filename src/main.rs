@@ -79,6 +79,12 @@ fn chapter_3() {
 
     print_section("04 - Use");
     prova::chapter_3::_04_use::run();
+
+    print_section("05 - C like");
+    prova::chapter_3::_05_c_like::run();
+
+    print_section("06 - Linked list");
+    prova::chapter_3::_06_linked_list::run();
 }
 
 fn print_chapter(chapter: &str) {
