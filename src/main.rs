@@ -1,9 +1,14 @@
 fn main() {
+    chapter_1();
+    chapter_2();
+    chapter_3();
+}
+
+fn chapter_1() {
     print_chapter("CHAPTER 1");
 
     print_section("01 - Hello world");
     prova::chapter_1::_01_hello_world::run();
-    
     print_section("01.a - Hello world");
     prova::chapter_1::_01a_hello_world::run();
 
@@ -36,7 +41,9 @@ fn main() {
 
     print_section("07.a - Formatting");
     prova::chapter_1::_07a_formatting::run();
+}
 
+fn chapter_2() {
     print_chapter("CHAPTER 2");
 
     print_section("01 - Primitives");
@@ -50,6 +57,13 @@ fn main() {
 
     print_section("03.a - Tuples");
     prova::chapter_2::_03a_tuples::run();
+
+    print_section("04 - Arrays and slices");
+    prova::chapter_2::_04_arrays_and_slices::run();
+}
+
+fn chapter_3() {
+    print_chapter("CHAPTER 3");
 }
 
 fn print_chapter(chapter: &str) {
