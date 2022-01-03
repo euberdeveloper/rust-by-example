@@ -2,6 +2,7 @@ fn main() {
     chapter_1();
     chapter_2();
     chapter_3();
+    chapter_4();
 }
 
 fn chapter_1() {
@@ -88,6 +89,25 @@ fn chapter_3() {
 
     print_section("07 - Constants");
     rust_by_example::chapter_3::_07_constants::run();
+}
+
+fn chapter_4() {
+    print_chapter("CHAPTER 4");
+
+    print_section("01 - Variable bindings");
+    rust_by_example::chapter_4::_01_variable_bindings::run();
+
+    print_section("02 - Mutability");
+    rust_by_example::chapter_4::_02_mutability::run();
+
+    print_section("03 - Scope and shadowing");
+    rust_by_example::chapter_4::_03_scope_and_shadowing::run();
+
+    print_section("04 - Declare first");
+    rust_by_example::chapter_4::_04_declare_first::run();
+
+    print_section("05 - Freezing");
+    rust_by_example::chapter_4::_05_freezing::run();
 }
 
 fn print_chapter(chapter: &str) {
