@@ -5,3 +5,4 @@ pub mod _03_type_aliases;
 pub mod _04_use;
 pub mod _05_c_like;
 pub mod _06_linked_list;
+pub mod _07_constants;

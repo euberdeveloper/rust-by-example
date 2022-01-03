@@ -85,6 +85,9 @@ fn chapter_3() {
 
     print_section("06 - Linked list");
     rust_by_example::chapter_3::_06_linked_list::run();
+
+    print_section("07 - Constants");
+    rust_by_example::chapter_3::_07_constants::run();
 }
 
 fn print_chapter(chapter: &str) {
