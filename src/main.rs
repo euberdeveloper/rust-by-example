@@ -38,6 +38,12 @@ fn main() {
     prova::chapter_1::_07a_formatting::run();
 
     print_chapter("CHAPTER 2");
+
+    print_section("01 - Primitives");
+    prova::chapter_2::_01_primitives::run();
+
+    print_section("02 - Literals and operators");
+    prova::chapter_2::_02_literals_and_operators::run();
 }
 
 fn print_chapter(chapter: &str) {
