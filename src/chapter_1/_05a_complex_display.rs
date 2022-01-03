@@ -17,6 +17,6 @@ struct Complex {
 
 impl Display for Complex {
     fn fmt(&self, f: &mut Formatter) -> fmt::Result {
-        write!(f, "{real} + {image}i", real = self.real, image = self.imag)
+        write!(f, "({} + {}i)", self.real, self.imag)
     }
 }

@@ -1,3 +1,12 @@
-pub mod complex_display;
-pub mod display_list;
-pub mod display_colour;
+pub mod _01_hello_world;
+pub mod _01a_hello_world;
+pub mod _02_comments;
+pub mod _03_formatted_print;
+pub mod _03a_formatted_print;
+pub mod _04_debug;
+pub mod _05_display;
+pub mod _05a_complex_display;
+pub mod _06_list_testcase;
+pub mod _06a_list_testcase;
+pub mod _07_formatting;
+pub mod _07a_formatting;
