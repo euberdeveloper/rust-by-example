@@ -3,6 +3,7 @@ fn main() {
     chapter_2();
     chapter_3();
     chapter_4();
+    chapter_5();
 }
 
 fn chapter_1() {
@@ -108,6 +109,22 @@ fn chapter_4() {
 
     print_section("05 - Freezing");
     rust_by_example::chapter_4::_05_freezing::run();
+}
+
+fn chapter_5() {
+    print_chapter("CHAPTER 5");
+
+    print_section("01 - Casting");
+    rust_by_example::chapter_5::_01_casting::run();
+
+    print_section("02 - Literals");
+    rust_by_example::chapter_5::_02_literals::run();
+
+    print_section("03 - Inference");
+    rust_by_example::chapter_5::_03_inference::run();
+
+    print_section("04 - Aliasing");
+    rust_by_example::chapter_5::_04_aliasing::run();
 }
 
 fn print_chapter(chapter: &str) {
