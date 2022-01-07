@@ -9,6 +9,8 @@ fn main() {
     chapter_8();
     chapter_9();
     chapter_10();
+    chapter_11();
+    chapter_12();
 }
 
 fn chapter_1() {
@@ -250,6 +252,18 @@ fn chapter_10() {
 
     print_section("04 - Super and self");
     rust_by_example::chapter_10::_04_super_and_self::run();
+}
+
+fn chapter_11() {
+    print_chapter("CHAPTER 11");
+
+    print_section("Crates examples can not be run here");
+}
+
+fn chapter_12() {
+    print_chapter("CHAPTER 12");
+
+    print_section("Cargo examples can not be run here");
 }
 
 fn print_chapter(chapter: &str) {
