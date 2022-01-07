@@ -11,6 +11,7 @@ fn main() {
     chapter_10();
     chapter_11();
     chapter_12();
+    chapter_13();
 }
 
 fn chapter_1() {
@@ -265,6 +266,20 @@ fn chapter_12() {
 
     print_section("Cargo examples can not be run here");
 }
+
+fn chapter_13() {
+    print_chapter("CHAPTER 13");
+
+    print_section("01 - Deadcode");
+    rust_by_example::chapter_13::_01_deadcode::run();
+
+    print_section("02 - Crates");
+    rust_by_example::chapter_13::_02_crates::run();
+
+    print_section("03 - Cfg");
+    rust_by_example::chapter_13::_03_cfg::run();
+}
+
 
 fn print_chapter(chapter: &str) {
     println!("\n{}", chapter);
