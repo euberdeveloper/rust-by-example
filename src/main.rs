@@ -6,6 +6,7 @@ fn main() {
     chapter_5();
     chapter_6();
     chapter_7();
+    chapter_8();
 }
 
 fn chapter_1() {
@@ -147,6 +148,49 @@ fn chapter_7() {
 
     print_section("01 - Expressions");
     rust_by_example::chapter_7::_01_expressions::run();
+}
+
+fn chapter_8() {
+    print_chapter("CHAPTER 8");
+
+    print_section("01 - If else");
+    rust_by_example::chapter_8::_01_if_else::run();
+
+    print_section("02 - Loop");
+    rust_by_example::chapter_8::_02_loop::run();
+
+    print_section("03 - Nesting and labels");
+    rust_by_example::chapter_8::_03_nesting_and_labels::run();
+
+    print_section("04 - Returning from loops");
+    rust_by_example::chapter_8::_04_returning_from_loops::run();
+
+    print_section("05 - While");
+    rust_by_example::chapter_8::_05_while::run();
+
+    print_section("06 - For and range");
+    rust_by_example::chapter_8::_06_for_and_range::run();
+
+    print_section("07 - Match");
+    rust_by_example::chapter_8::_07_match::run();
+
+    print_section("08 - Destructuring");
+    rust_by_example::chapter_8::_08_destructuring::run();
+
+    print_section("09 - Guards");
+    rust_by_example::chapter_8::_09_guards::run();
+
+    print_section("10 - Binding");
+    rust_by_example::chapter_8::_10_binding::run();
+
+    print_section("11 - If let");
+    rust_by_example::chapter_8::_11_if_let::run();
+
+    print_section("11.a - If let");
+    rust_by_example::chapter_8::_11a_if_let::run();
+
+    print_section("12 - While let");
+    rust_by_example::chapter_8::_12_while_let::run();
 }
 
 fn print_chapter(chapter: &str) {
