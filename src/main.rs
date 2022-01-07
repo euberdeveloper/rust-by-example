@@ -7,6 +7,7 @@ fn main() {
     chapter_6();
     chapter_7();
     chapter_8();
+    chapter_9();
 }
 
 fn chapter_1() {
@@ -191,6 +192,47 @@ fn chapter_8() {
 
     print_section("12 - While let");
     rust_by_example::chapter_8::_12_while_let::run();
+}
+
+fn chapter_9() {
+    print_chapter("CHAPTER 9");
+
+    print_section("01 - Functions");
+    rust_by_example::chapter_9::_01_functions::run();
+
+    print_section("02 - Methods");
+    rust_by_example::chapter_9::_02_methods::run();
+
+    print_section("03 - Closures");
+    rust_by_example::chapter_9::_03_closures::run();
+
+    print_section("04 - Capturing");
+    rust_by_example::chapter_9::_04_capturing::run();
+
+    print_section("05 - As input parameters");
+    rust_by_example::chapter_9::_05_as_input_parameters::run();
+
+    print_section("06 - Type anonimity");
+    rust_by_example::chapter_9::_06_type_anonimity::run();
+
+    print_section("07 - Input functions");
+    rust_by_example::chapter_9::_07_input_functions::run();
+
+    print_section("08 - As output parameters");
+    rust_by_example::chapter_9::_08_as_output_parameters::run();
+
+    print_section("09 - Iterator any");
+    rust_by_example::chapter_9::_09_iterator_any::run();
+
+    print_section("10 - Searching through iterators");
+    rust_by_example::chapter_9::_10_searching_through_iterators::run();
+
+    print_section("11 - Higher order functions");
+    rust_by_example::chapter_9::_11_higher_order_functions::run();
+
+    print_section("12 - Diverging functions");
+    rust_by_example::chapter_9::_12_diverging_functions::run();
+
 }
 
 fn print_chapter(chapter: &str) {
