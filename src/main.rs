@@ -4,6 +4,7 @@ fn main() {
     chapter_3();
     chapter_4();
     chapter_5();
+    chapter_6();
 }
 
 fn chapter_1() {
@@ -125,6 +126,19 @@ fn chapter_5() {
 
     print_section("04 - Aliasing");
     rust_by_example::chapter_5::_04_aliasing::run();
+}
+
+fn chapter_6() {
+    print_chapter("CHAPTER 6");
+
+    print_section("01 - From and Into");
+    rust_by_example::chapter_6::_01_from_and_into::run();
+
+    print_section("02 - Try From and Try Into");
+    rust_by_example::chapter_6::_02_tryfrom_and_tryinto::run();
+
+    print_section("03 - To and From Strings");
+    rust_by_example::chapter_6::_03_to_and_from_strings::run();
 }
 
 fn print_chapter(chapter: &str) {
