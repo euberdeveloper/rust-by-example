@@ -5,6 +5,7 @@ fn main() {
     chapter_4();
     chapter_5();
     chapter_6();
+    chapter_7();
 }
 
 fn chapter_1() {
@@ -139,6 +140,13 @@ fn chapter_6() {
 
     print_section("03 - To and From Strings");
     rust_by_example::chapter_6::_03_to_and_from_strings::run();
+}
+
+fn chapter_7() {
+    print_chapter("CHAPTER 7");
+
+    print_section("01 - Expressions");
+    rust_by_example::chapter_7::_01_expressions::run();
 }
 
 fn print_chapter(chapter: &str) {
