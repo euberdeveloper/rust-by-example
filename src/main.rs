@@ -8,6 +8,7 @@ fn main() {
     chapter_7();
     chapter_8();
     chapter_9();
+    chapter_10();
 }
 
 fn chapter_1() {
@@ -233,6 +234,22 @@ fn chapter_9() {
     print_section("12 - Diverging functions");
     rust_by_example::chapter_9::_12_diverging_functions::run();
 
+}
+
+fn chapter_10() {
+    print_chapter("CHAPTER 10");
+
+    print_section("01 - Visibility");
+    rust_by_example::chapter_10::_01_visibility::run();
+
+    print_section("02 - Struct visibility");
+    rust_by_example::chapter_10::_02_struct_visibility::run();
+
+    print_section("03 - The use declaration");
+    rust_by_example::chapter_10::_03_the_use_declaration::run();
+
+    print_section("04 - Super and self");
+    rust_by_example::chapter_10::_04_super_and_self::run();
 }
 
 fn print_chapter(chapter: &str) {
