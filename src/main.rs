@@ -284,6 +284,44 @@ fn chapter_13() {
 fn chapter_14() {
     print_chapter("CHAPTER 14");
 
+    print_section("01 - Generics");
+    rust_by_example::chapter_14::_01_generics::run();
+
+    print_section("02 - Functions");
+    rust_by_example::chapter_14::_02_functions::run();
+
+    print_section("03 - Implementation");
+    rust_by_example::chapter_14::_03_implementation::run();
+
+    print_section("04 - Traits");
+    rust_by_example::chapter_14::_04_traits::run();
+
+    print_section("05 - Bounds");
+    rust_by_example::chapter_14::_05_bounds::run();
+
+    print_section("06 - Bounds testcase");
+    rust_by_example::chapter_14::_06_bounds_testcase::run();
+
+    print_section("07 - Multiple bounds");
+    rust_by_example::chapter_14::_07_multiple_bounds::run();
+
+    print_section("08 - Where clauses");
+    rust_by_example::chapter_14::_08_where_clauses::run();
+
+    print_section("09 - New type idiom");
+    rust_by_example::chapter_14::_09_new_type_idiom::run();
+
+    print_section("10 - Associated items The problem");
+    rust_by_example::chapter_14::_10_associated_items_the_problem::run();
+
+    print_section("11 - Associated items Types");
+    rust_by_example::chapter_14::_11_associated_items_types::run();
+
+    print_section("12 - Phantom type parameters");
+    rust_by_example::chapter_14::_12_phantom_type_parameters::run();
+
+    print_section("13 - Phantom type parameters Testcase");
+    rust_by_example::chapter_14::_13_phantom_type_parameters_testcase::run();
 }
 
 
