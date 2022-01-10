@@ -13,6 +13,7 @@ fn main() {
     chapter_12();
     chapter_13();
     chapter_14();
+    chapter_15();
 }
 
 fn chapter_1() {
@@ -324,7 +325,18 @@ fn chapter_14() {
     rust_by_example::chapter_14::_13_phantom_type_parameters_testcase::run();
 }
 
+fn chapter_15() {
+    print_chapter("CHAPTER 15");
 
+    print_section("01 - Raii");
+    rust_by_example::chapter_15::_01_raii::run();
+
+    print_section("02 - Ownership and moves");
+    rust_by_example::chapter_15::_02_ownership_and_moves::run();
+
+    print_section("03 - Mutability");
+    rust_by_example::chapter_15::_03_mutability::run();
+}
 
 fn print_chapter(chapter: &str) {
     println!("\n{}", chapter);
