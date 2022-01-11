@@ -1,0 +1,15 @@
+pub mod _01_panic;
+pub mod _02_option_unwrap;
+pub mod _03_unpacking_options;
+pub mod _04_combinators_map;
+pub mod _05_combinators_and_then;
+pub mod _06_result;    
+pub mod _07_map_for_result;
+pub mod _08_aliases_for_result;
+pub mod _09_early_returns;
+pub mod _10_introducing_question_mark;
+// pub mod _11_placeholder;
+// pub mod _12_placeholder;
+// pub mod _13_placeholder;
+// pub mod _14_placeholder;
+// pub mod _15_placeholder;

@@ -16,6 +16,7 @@ fn main() {
     chapter_15();
     chapter_16();
     chapter_17();
+    chapter_18();
 }
 
 fn chapter_1() {
@@ -418,6 +419,44 @@ fn chapter_17() {
 
     print_section("07 - Variadix");
     rust_by_example::chapter_17::_07_variadix::run();
+}
+
+fn chapter_18() {
+    print_chapter("CHAPTER 18");
+
+    print_section("01 - Panic");
+    // rust_by_example::chapter_18::_01_panic::run();
+
+    print_section("02 - Placeholder");
+
+    print_section("03 - Placeholder");
+
+    print_section("04 - Placeholder");
+
+    print_section("05 - Placeholder");
+
+    print_section("06 - Placeholder");
+
+    print_section("07 - Placeholder");
+
+    print_section("08 - Placeholder");
+
+    print_section("09 - Placeholder");
+
+    print_section("10 - Placeholder");
+
+    print_section("11 - Placeholder");
+
+    print_section("12 - Placeholder");
+
+    print_section("13 - Placeholder");
+
+    print_section("14 - Placeholder");
+
+    print_section("15 - Placeholder");
+
+
+    
 }
 
 fn print_chapter(chapter: &str) {
