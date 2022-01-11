@@ -15,6 +15,7 @@ fn main() {
     chapter_14();
     chapter_15();
     chapter_16();
+    chapter_17();
 }
 
 fn chapter_1() {
@@ -392,6 +393,31 @@ fn chapter_16() {
 
     print_section("10 - Disambiguating overlapping traits");
     rust_by_example::chapter_16::_10_disambiguating_overlapping_traits::run();
+}
+
+fn chapter_17() {
+    print_chapter("CHAPTER 17");
+
+    print_section("01 - Macro rules");
+    rust_by_example::chapter_17::_01_macro_rules::run();
+
+    print_section("02 - Designators");
+    rust_by_example::chapter_17::_02_designators::run();
+
+    print_section("03 - Overload");
+    rust_by_example::chapter_17::_03_overload::run();
+
+    print_section("04 - Repeat");
+    rust_by_example::chapter_17::_04_repeat::run();
+
+    print_section("05 - Dry");
+    rust_by_example::chapter_17::_05_dry::run();
+
+    print_section("06 - DSLs");
+    rust_by_example::chapter_17::_06_dsls::run();
+
+    print_section("07 - Variadix");
+    rust_by_example::chapter_17::_07_variadix::run();
 }
 
 fn print_chapter(chapter: &str) {
