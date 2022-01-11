@@ -14,6 +14,7 @@ fn main() {
     chapter_13();
     chapter_14();
     chapter_15();
+    chapter_16();
 }
 
 fn chapter_1() {
@@ -336,6 +337,29 @@ fn chapter_15() {
 
     print_section("03 - Mutability");
     rust_by_example::chapter_15::_03_mutability::run();
+
+    print_section("04 - Partial Moves");
+    rust_by_example::chapter_15::_04_partial_moves::run();
+
+    print_section("05 - Borrowing");
+    rust_by_example::chapter_15::_05_borrowing::run();
+
+    print_section("06 - Borrowing mutability");
+    rust_by_example::chapter_15::_06_mutability::run();
+
+    print_section("07 - Aliasing");
+    rust_by_example::chapter_15::_07_aliasing::run();
+
+    print_section("08 - The ref pattern");
+    rust_by_example::chapter_15::_08_the_ref_pattern::run();
+
+    print_section("09 - Lifetimes");
+    rust_by_example::chapter_15::_09_lifetimes::run();
+}
+
+fn chapter_16() {
+    print_chapter("CHAPTER 16");
+
 }
 
 fn print_chapter(chapter: &str) {
