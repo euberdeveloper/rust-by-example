@@ -360,6 +360,38 @@ fn chapter_15() {
 fn chapter_16() {
     print_chapter("CHAPTER 16");
 
+    print_section("01 - Traits");
+    rust_by_example::chapter_16::_01_traits::run();
+
+    print_section("02 - Derive");
+    rust_by_example::chapter_16::_02_derive::run();
+
+    print_section("02.a - Derive with from into");
+    rust_by_example::chapter_16::_02a_derive_with_from_into::run();
+
+    print_section("03 - Returning traits with dyn");
+    rust_by_example::chapter_16::_03_returning_traits_with_dyn::run();
+
+    print_section("04 - Operator overloading");
+    rust_by_example::chapter_16::_04_operator_overloading::run();
+
+    print_section("05 - Drop");
+    rust_by_example::chapter_16::_05_drop::run();
+
+    print_section("06 - Iterators");
+    rust_by_example::chapter_16::_06_iterators::run();
+
+    print_section("07 - Impl trait");
+    rust_by_example::chapter_16::_07_impl_trait::run();
+
+    print_section("08 - Clone");
+    rust_by_example::chapter_16::_08_clone::run();
+
+    print_section("09 - Supertraits");
+    rust_by_example::chapter_16::_09_supertraits::run();
+
+    print_section("10 - Disambiguating overlapping traits");
+    rust_by_example::chapter_16::_10_disambiguating_overlapping_traits::run();
 }
 
 fn print_chapter(chapter: &str) {
