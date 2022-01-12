@@ -17,6 +17,7 @@ fn main() {
     chapter_16();
     chapter_17();
     chapter_18();
+    chapter_19();
 }
 
 fn chapter_1() {
@@ -477,6 +478,37 @@ fn chapter_18() {
 
 
     
+}
+
+fn chapter_19() {
+    print_chapter("CHAPTER 19");
+
+    print_section("01 - Box stack and heap");
+    rust_by_example::chapter_19::_01_box_stack_and_heap::run();
+
+    print_section("02 - Vectors");
+    rust_by_example::chapter_19::_02_vectors::run();
+
+    print_section("03 - Strings");
+    rust_by_example::chapter_19::_03_strings::run();
+
+    print_section("04 - Option");
+    rust_by_example::chapter_19::_04_option::run();
+
+    print_section("05 - Result");
+    rust_by_example::chapter_19::_05_result::run();
+
+    print_section("06 - Panic");
+    rust_by_example::chapter_19::_06_panic::run();
+
+    print_section("07 - Hashmap");
+    rust_by_example::chapter_19::_07_hashmap::run();
+
+    print_section("08 - Rc");
+    rust_by_example::chapter_19::_08_rc::run();
+
+    print_section("09 - Arc");
+    rust_by_example::chapter_19::_09_arc::run();
 }
 
 fn print_chapter(chapter: &str) {
