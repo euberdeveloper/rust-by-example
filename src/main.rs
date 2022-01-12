@@ -18,6 +18,7 @@ fn main() {
     chapter_17();
     chapter_18();
     chapter_19();
+    chapter_20();
 }
 
 fn chapter_1() {
@@ -510,6 +511,53 @@ fn chapter_19() {
     print_section("09 - Arc");
     rust_by_example::chapter_19::_09_arc::run();
 }
+
+fn chapter_20() {
+    print_chapter("CHAPTER 20");
+
+    print_section("01 - Threads");
+    rust_by_example::chapter_20::_01_threads::run();
+
+    print_section("02 - Threads testcase");
+    rust_by_example::chapter_20::_02_threads_testcase::run();
+
+    print_section("03 - Channels");
+    rust_by_example::chapter_20::_03_channels::run();
+
+    print_section("04 - Path");
+    rust_by_example::chapter_20::_04_path::run();
+
+    print_section("05 - File open");
+    rust_by_example::chapter_20::_05_file_open::run();
+
+    print_section("06 - File create");
+    rust_by_example::chapter_20::_06_file_create::run();
+
+    print_section("07 - Readlines");
+    rust_by_example::chapter_20::_07_readlines::run();
+
+    print_section("08 - Child processes");
+    rust_by_example::chapter_20::_08_child_processes::run();
+
+    print_section("09 - Pipes");
+    rust_by_example::chapter_20::_09_pipes::run();
+
+    print_section("10 - Wait");
+    rust_by_example::chapter_20::_10_wait::run();
+
+    print_section("11 - Filesystem operations");
+    rust_by_example::chapter_20::_11_filesystem_operations::run();
+
+    print_section("12 - Program arguments");
+    rust_by_example::chapter_20::_12_program_arguments::run();
+
+    print_section("13 - Argument parsing");
+    rust_by_example::chapter_20::_13_argument_parsing::run();
+
+    print_section("14 - Ffi");
+    rust_by_example::chapter_20::_14_ffi::run();
+}
+
 
 fn print_chapter(chapter: &str) {
     println!("\n{}", chapter);
