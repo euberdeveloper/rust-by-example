@@ -427,33 +427,53 @@ fn chapter_18() {
     print_section("01 - Panic");
     // rust_by_example::chapter_18::_01_panic::run();
 
-    print_section("02 - Placeholder");
+    print_section("02 - Option unwrap");
+    // rust_by_example::chapter_18::_02_option_unwrap::run();
 
-    print_section("03 - Placeholder");
+    print_section("03 - unpacking options");
+    rust_by_example::chapter_18::_03_unpacking_options::run();
 
-    print_section("04 - Placeholder");
+    print_section("04 - Combinators map");
+    rust_by_example::chapter_18::_04_combinators_map::run();
 
-    print_section("05 - Placeholder");
+    print_section("05 - Combinators and then");
+    rust_by_example::chapter_18::_05_combinators_and_then::run();
 
-    print_section("06 - Placeholder");
+    print_section("06 - Result");
+    rust_by_example::chapter_18::_06_result::run();
 
-    print_section("07 - Placeholder");
+    print_section("07 - Map for result");
+    rust_by_example::chapter_18::_07_map_for_result::run();
 
-    print_section("08 - Placeholder");
+    print_section("08 - Aliases for result");
+    rust_by_example::chapter_18::_08_aliases_for_result::run();
 
-    print_section("09 - Placeholder");
+    print_section("09 - Early returns");
+    rust_by_example::chapter_18::_09_early_returns::run();
 
-    print_section("10 - Placeholder");
+    print_section("10 - Introducing question mark");
+    rust_by_example::chapter_18::_10_introducing_question_mark::run();
 
-    print_section("11 - Placeholder");
+    print_section("11 - Multiple error types");
+    rust_by_example::chapter_18::_11_multiple_error_types::run();
 
-    print_section("12 - Placeholder");
+    print_section("12 - Pulling results");
+    rust_by_example::chapter_18::_12_pulling_results::run();
 
-    print_section("13 - Placeholder");
+    print_section("13 - Defining an error type");
+    rust_by_example::chapter_18::_13_defining_an_error_type::run();
 
-    print_section("14 - Placeholder");
+    print_section("14 - Boxing errors");
+    rust_by_example::chapter_18::_14_boxing_errors::run();
 
-    print_section("15 - Placeholder");
+    print_section("15 - Other uses of question mark");
+    rust_by_example::chapter_18::_15_other_uses_of_question_mark::run();
+
+    print_section("16 - Wrapping errors");
+    rust_by_example::chapter_18::_16_wrapping_errors::run();
+
+    print_section("17 - Iterating over results");
+    rust_by_example::chapter_18::_17_iterating_over_results::run();
 
 
     
